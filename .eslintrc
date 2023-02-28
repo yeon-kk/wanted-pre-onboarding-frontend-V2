@@ -1,0 +1,15 @@
+{
+  "env": {
+    "es6": true //es5가 기본이기 때문에 es6라는 것을 알림
+  },
+  "extends": ["react-app", "eslint:recommended"], //react-app이라는 config를 그대로 쓰겠다. eslint:recommended라는 config를 쓰겠다
+  "rules": {
+    "no-var": "error",
+    "no-multiple-empty-lines": "error",
+    "no-console": ["error", { "allow": ["warn", "error", "info"] }],
+    "eqeqeq": "error",
+    "dot-notation": "error",
+    "no-unused-vars": "error",
+    "no-console": ["warn", { "allow": ["warn", "error", "info"] }]
+  }
+}
